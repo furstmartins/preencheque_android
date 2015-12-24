@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    android:background="#ffff47ea">
+
+
+    <TableRow>
+        <!-- Column 1 -->
+
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/app_name"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tbl_txt1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="@string/titleInsertNumber"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/insertNumber"
+            android:layout_column="1"
+            android:paddingRight="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="@string/btOk"
+            android:id="@+id/btOk"
+            android:background="#ff31ff23"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="@string/limpar"
+            android:id="@+id/btLimpar"
+            android:background="#ff31ff23"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="@string/resultado"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="@string/espaco"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>
